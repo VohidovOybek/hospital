@@ -1,0 +1,22 @@
+{
+  "name": "uzdev/warehouse",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Warehouse\\": "core/"
+    },
+    "files": [
+      "helpers/helper.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Sardor Shodmonov",
+      "email": "uzdeveloper1@gmail.com"
+    }
+  ],
+  "require": {
+    "irazasyed/telegram-bot-sdk": "2.0",
+    "dompdf/dompdf": "^1.1"
+  }
+}
